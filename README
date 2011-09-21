@@ -1,0 +1,70 @@
+Maintainer: Mark Hazlett
+
+Version: 1.0
+
+How_To_Install_Nix:
+  1. Ensure that your vim is compiled with ruby support.
+      - To do this run vim --verision and ensure +ruby is located somewhere
+      in the output.
+  2. Run the following command:
+      "Sudo apt-get install exuberant-ctags"
+  3. Checkout the git repo into your home directory
+      "git clone https://git@github.com/markhazlett/vim-config.git"
+  4. Move the vim-config folder to .vim
+      WARNING - This will overrite all of your current vim configurations.
+      So please back it up prior to.
+      "mv vim-config .vim"
+  5. Move the .vimrc into your home folder
+      "cd .vim"
+      "mv .vimrc ~/.vimrc"
+
+Sections:
+  -> Initializers
+  -> General
+  -> Colors/Fonts
+  -> File Completions
+  -> Omnicomplete
+  -> Tab Navigation
+  -> Status Line
+  -> File Navigation
+  -> Command-T
+  -> Zend
+  -> Taglist
+  -> Tagbar
+  -> Exuberant CTags
+  -> NERDTree
+  -> JSLint
+
+Plugins:
+  -> Command-T
+      Command-T plug-in provides an extremely fast, intuitive mechanism for
+      opening files.
+      url - http://github.com/wincent/Command-T
+      info -> :help command-t   
+  -> Tagbar
+      Displays information about 
+      url - http://majutsushi.github.com/tagbar/ 
+      info -> :help tagbar
+      git - git clone git://github.com/majutsushi/tagbar
+  -> Taglist
+      Taglist is like tagbar but provides a little more description for PHP
+      files.
+      url - https://github.com/vim-scripts/taglist.vim
+  -> NERDTree
+      Displays a tree starting from the directory in which you started vim.
+      url - https://github.com/scrooloose/nerdtree
+  -> PhpComplete
+      Provides PHP context aware completion using omni complete.
+      url - https://github.com/shawncplus/phpcomplete.vim
+  -> Supertab
+      Provides tab completion for any of the completion types.
+      url - http://www.vim.org/scripts/script.php?script_id=182
+  -> Exuberant CTags
+      Provides syntax completion after tags have been generated.
+      url - sudo apt-get install exuberant-ctags
+  -> Pathogen
+      Easy package management for VIM
+      url - https://github.com/tpope/vim-pathogen
+
+Revisions:
+  -> 1.0 - Initial Revision

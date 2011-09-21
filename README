@@ -1,8 +1,10 @@
-Maintainer: Mark Hazlett
+#Maintainer# 
+Mark Hazlett
 
-Version: 1.0
+#Version:# 
+1.0
 
-How_To_Install_Nix:
+#How To Install on *nix#
   1. Ensure that your vim is compiled with ruby support.
       - To do this run vim --verision and ensure +ruby is located somewhere
       in the output.
@@ -18,7 +20,7 @@ How_To_Install_Nix:
       "cd .vim"
       "mv .vimrc ~/.vimrc"
 
-Sections:
+#Sections#
   -> Initializers
   -> General
   -> Colors/Fonts
@@ -35,7 +37,7 @@ Sections:
   -> NERDTree
   -> JSLint
 
-Plugins:
+#Plugins#
   -> Command-T
       Command-T plug-in provides an extremely fast, intuitive mechanism for
       opening files.
@@ -66,5 +68,5 @@ Plugins:
       Easy package management for VIM
       url - https://github.com/tpope/vim-pathogen
 
-Revisions:
+#Revisions#
   -> 1.0 - Initial Revision
